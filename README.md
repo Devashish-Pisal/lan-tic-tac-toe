@@ -6,24 +6,24 @@ This project showcases basic networking with sockets and simple game logic, perf
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 This is a minimal Java application that enables two players on a local area network to play Tic-Tac-Toe (Noughts and Crosses) against each other. The server manages player connections and relays moves between clients.
 
 ---
 
-## 🖼 Screenshots
+##  Screenshots
 
-### 🕹 Lobby / Connection Screen
+###  Lobby / Connection Screen
 ![Lobby Screenshot](assets/lobby.png)
 
-### ❌⭕ Gameplay Screen
+###  Gameplay Screen
 ![Gameplay Screenshot](assets/gameplay.png)
 
 
 ---
 
-## 📦 Features
+##  Features
 
 - Basic LAN multiplayer gameplay
 - Clean and minimal Java implementation
@@ -32,7 +32,7 @@ This is a minimal Java application that enables two players on a local area netw
 
 ---
 
-## 📌 How to Run
+##  How to Run
 
 1. **Clone the repository:**
    ```bash
@@ -53,7 +53,7 @@ This is a minimal Java application that enables two players on a local area netw
 
 ---
 
-## 🛠 How It Works
+##  How It Works
 
 - One instance runs as the **server**, accepting connections over a network port.
 - Two client instances connect to the server and take turns sending/receiving moves.
@@ -62,7 +62,7 @@ This is a minimal Java application that enables two players on a local area netw
 
 ---
 
-## 💡 Notes
+##  Notes
 
 - Ensure all players are on the **same local network**.
 - SQLite Database on server machine.
