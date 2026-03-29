@@ -2,7 +2,7 @@
 
 A simple LAN-based Tic-Tac-Toe game built in Java — allowing two players on the same network to play a classic 3×3 game.
 
-This project showcases basic networking with sockets and simple game logic, perfect for learning about client-server communication and turn-based multiplayer games.
+This project showcases basic networking with web sockets and simple game logic, perfect for learning about client-server communication and turn-based multiplayer games.
 
 ---
 
@@ -55,7 +55,7 @@ This is a minimal Java application that enables two players on a local area netw
 
 ##  How It Works
 
-- One instance runs as the **server**, accepting connections over a network port.
+- One instance runs as a **server**, accepting connections over a network port.
 - Two client instances connect to the server and take turns sending/receiving moves.
 - The server broadcasts game state updates to both clients.
 - Win/draw logic is evaluated locally or by the server.
