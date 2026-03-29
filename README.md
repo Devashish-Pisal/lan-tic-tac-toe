@@ -58,7 +58,7 @@ This is a minimal Java application that enables two players on a local area netw
 - One instance runs as a **server**, accepting connections over a network port.
 - Two client instances connect to the server and take turns sending/receiving moves.
 - The server broadcasts game state updates to both clients.
-- Win/draw logic is evaluated locally or by the server.
+- Win/draw logic is evaluated locally by the server.
 
 ---
 
